@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Page Service Info</title>
+  <title>Page Wallet Info</title>
 
   <!-- Custom fonts for this template-->
   <link href="css/all.min.css" rel="stylesheet" type="text/css">
@@ -132,7 +132,7 @@
       <div id="content">
 
         <!-- Topbar -->
-        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top sadow">
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
           <li class="nav-item">
             <i class="fa fa-arrow-left" aria-hidden="true" style="padding-left: 5px;"></i>
@@ -211,144 +211,118 @@
           <!-- Content Row -->
           <div class="row">
             <!-- Earnings (Monthly) Card Example -->
-            <div class="col-xl-12 col-md-6 mb-auto">
-              <div class="py-2">
-                <h4> Wallet - Withdraw</h4>
-              </div>
-            </div>
             <div class="col-xl-12 col-md-6 mb-4">
               <div class="py-2">
-                <div class="dropdown">
-                  <button class="btn btn-white dropdown-toggle shadow" type="button" id="dropdownMenuButton"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Latest
-                  </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Oldest</a>
-                  </div>
-                </div>
+                <h4> Wallet - Withdraw Detail</h4>
               </div>
             </div>
-            <style>
-              .shadow {
-                width: 200px;
-                height: 35px;
-                font-size: 11px;
-                text-transform: uppercase;
-                letter-spacing: 2.5px;
-                font-weight: 500;
-                color: #000;
-                text-align: left;
-                /* background-color: #fff; */
-                border: none;
-                border-radius: 15px;
-                box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-                transition: all 0.3s ease 0s;
-                cursor: pointer;
-                outline: none;
-              }
-            </style>
 
-            <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col">Withdraw Id</th>
-                  <th scope="col">Bank Account</th>
-                  <th scope="col">Nominal </th>
-                  <th scope="col">Request Date</th>
-                  <th scope="col">Status</th>
-                </tr>
-              </thead>
+            <table class="table table-borderless" style="font-size: 13px;">
               <tbody>
                 <tr>
-                  <td> <a href="detailwallet.html"> Wtd/022235</a></td>
-                  <td><img src="img/bca.jpg" width="50px" height="40px"> 09222791615 A.n Anash</td>
-                  <td>1.0000.0000</td>
-                  <td>Mon,14-04-20 / 14.30</td>
-                  <td><button type="button" class="btn btn-warning"  style="border-radius: 70px; font-size: 10px;">Being
-                      Processed</button>
-                  </td>
+                  <td style="width: 200px;">Withdraw ID</td>
+                  <td colspan="4">:<b> Wth/098888</b></td>
                 </tr>
                 <tr>
-                  <td>Wtd/022234</td>
-                  <td><img src="img/bca.jpg" width="50px" height="40px"> 09222891615 A.n Anash</td>
-                  <td>1.0000.0000</td>
-                  <td>Mon,14-04-20 / 07.30</td>
-                  <td><button type="button" class="btn btn-success"
-                      style="border-radius: 70px; font-size: 10px;">Completed</button>
-                  </td>
+                  <td>Request Date</td>
+                  <td>: <b>Mon, 14-04-20 / 14.58</b></td>
                 </tr>
                 <tr>
-                  <td>Wtd/022233</td>
-                  <td><img src="img/bca.jpg" width="50px" height="40px"> 09222791605 A.n Anash</td>
-                  <td>1.0000.0000</td>
-                  <td>Mon,14-04-20 / 11.30</td>
-                  <td><button type="button" class="btn btn-success"
-                      style="border-radius: 70px; font-size: 10px;">Completed</button>
-                  </td>
+                  <td>Status</td>
+                  <td>: <button type="button" class="btn btn-warning"  style="border-radius: 70px; font-size: 10px;">Being
+                    Processed</button></td>
                 </tr>
               </tbody>
             </table>
+
+            <table class="table" style="width: 50%; font-size: 13px">
+              <tr class="noBorder">
+                <td colspan="2">Bank Account</td>
+                <td>Nominal</td>
+              </tr>
+              <tbody>
+                <tr>
+                <td colspan="2"><img src="img/bca.jpg" width="50px" height="40px"> 09222891615 A.n Anash</td>
+                <td> 1.200.0000</td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: right;"> Sub Total </td>
+                    <td> : 1.000.000 </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: right;"> Transfer Fee </td>
+                    <td> : 7.500 </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: right;"> <b>TOTAL</b> </td>
+                    <td> : 1.007.500 </td>
+                </tr>
+              </tbody>
+            </table>
+            <p style="font-size: 10px;"> Funds with Withdrawal will be processed within 3x24 hours on working days (Saturday, Sunday and national holidays not included) <br>
+    Sidebeep Team</p>
             <style>
-               .table a
-{
-    display:block;
-    text-decoration:none;
-}
+              .fa {
+                padding: 5px;
+              }
+
+              tr.noBorder td {
+                border: 0;
+              }
             </style>
-
-            <!-- /.container-fluid -->
-
           </div>
-          <!-- End of Main Content -->
+          <!-- /.container-fluid -->
 
         </div>
-        <!-- End of Content Wrapper -->
+        <!-- End of Main Content -->
 
       </div>
-      <!-- End of Page Wrapper -->
+      <!-- End of Content Wrapper -->
 
-      <!-- Scroll to Top Button-->
-      <a class="scroll-to-top rounded" href="#page-top">
-        <i class="fas fa-angle-up"></i>
-      </a>
+    </div>
+    <!-- End of Page Wrapper -->
 
-      <!-- Logout Modal-->
-      <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-              <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">×</span>
-              </button>
-            </div>
-            <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-            <div class="modal-footer">
-              <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-              <a class="btn btn-primary" href="login.html">Logout</a>
-            </div>
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            <a class="btn btn-primary" href="login.html">Logout</a>
           </div>
         </div>
       </div>
+    </div>
 
-      <!-- Bootstrap core JavaScript-->
-      <script src="vendor/jquery/jquery.min.js"></script>
-      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-      <!-- Core plugin JavaScript-->
-      <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-      <!-- Custom scripts for all pages-->
-      <script src="js/sb-admin-2.min.js"></script>
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
 
-      <!-- Page level plugins -->
-      <script src="vendor/chart.js/Chart.min.js"></script>
+    <!-- Page level plugins -->
+    <script src="vendor/chart.js/Chart.min.js"></script>
 
-      <!-- Page level custom scripts -->
-      <script src="js/demo/chart-area-demo.js"></script>
-      <script src="js/demo/chart-pie-demo.js"></script>
+    <!-- Page level custom scripts -->
+    <script src="js/demo/chart-area-demo.js"></script>
+    <script src="js/demo/chart-pie-demo.js"></script>
 
 </body>
 
