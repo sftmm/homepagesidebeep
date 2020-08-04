@@ -19,6 +19,7 @@
 
   <!-- Custom styles for this template-->
   <link href="css/sb-admin-2.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
 
 
@@ -216,7 +217,7 @@
                 <h4> Wallet - Withdraw Detail</h4>
               </div>
             </div>
-            <form class="col-lg-6 offset-lg-3" width="auto">
+            <form class="col-lg-6 offset-lg-3" width="50%">
                 <div class="row justify-content-center">
                     <label for="exampleFormControlInput1">Funds with Withdrawal will be processed within 3x24 hours on working days (Saturday, Sunday and national holidays not included)</label>
                   </div>
@@ -239,9 +240,16 @@
                     <label for="exampleInputEmail1">Password</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="xxxxxx">
                   </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                    <label class="custom-control-label" for="defaultUnchecked">Anda akan terkena biaya Penarikan sebesar IDR 7.500 / Penarikan</label>
+                  </div>
+                  <button type="submit" class="long">Submit</button>
+
                 </form>
               </form>
+              <!-- Default unchecked -->
+
             
           </div>
           <!-- /.container-fluid -->
